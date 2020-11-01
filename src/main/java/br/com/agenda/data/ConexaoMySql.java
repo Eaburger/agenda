@@ -66,17 +66,5 @@ public class ConexaoMySql implements Conexao{
 				this.close();
 			}
 		}
-			
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-	
-	
-
 }
