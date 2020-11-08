@@ -16,6 +16,15 @@ public class Usuario {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	public Usuario(long id, String nome) {
+		
+		this.id = id;
+		this.nome = nome;
+	}
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + "]";
+	}
 	
 	
 	
